@@ -51,10 +51,13 @@ pip install numpy
 You can verify that the packages are installed correctly using:
 
 ```bash
+python -m pip install ttkbootstrap
 pip show SpeechRecognition
 pip show gtts
 pip show pygame
 pip show numpy
+python -m pip install Pillow
+python -m pip install opencv-python
 ```
 
 Or check all installed packages:
@@ -65,12 +68,5 @@ pip list
 
 ---
 
-## Quick Installation
-
-You can install all required packages at once:
-
-```bash
-pip install SpeechRecognition==3.10.0 gTTS==2.5.2 pygame==2.3.0 numpy==1.23.3
-```
 
 > **Note:** Make sure you are using **Python 3.9.7** or a compatible Python environment before installing the dependencies.
